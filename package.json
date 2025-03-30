@@ -1,0 +1,26 @@
+{
+  "name": "praticando-testes",
+  "version": "1.0.0",
+  "description": "Neste diretório você vai encontrar vários testes feitos por mim com Cypress, com ituíto de colocar em pratica o que foi aprendido até o momento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiresJr/praticando-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AiresJr/praticando-testes/issues"
+  },
+  "homepage": "https://github.com/AiresJr/praticando-testes#readme",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}

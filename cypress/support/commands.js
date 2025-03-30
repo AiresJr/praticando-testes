@@ -1,0 +1,15 @@
+Cypress.Commands.add('preCadastro', (userName, email, firstName, lastName, phoneNumber) => {
+    cy.get('[data-qa="signup-name"]').type(userName)
+    cy.get('[data-qa="signup-email"]').type(email)
+    cy.get('[data-qa="signup-button"]').click()
+    cy.get('[data-qa="password"]').type('Teste123@')
+    cy.get('[data-qa="first_name"]').type(firstName)
+    cy.get('[data-qa="last_name"]').type(lastName)
+    cy.get('[data-qa="address"]').type('Praceta 1 de Dezembro')
+    cy.get('[data-qa="state"]').type('Lisboa')
+    cy.get('[data-qa="city"]').type('Odivelas')
+    cy.get('[data-qa="zipcode"]').type('2675-123')
+    cy.get('[data-qa="mobile_number"]').type(phoneNumber)
+    cy.get('[data-qa="create-account"]').click()
+    
+})
